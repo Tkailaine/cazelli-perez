@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head >
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cazelli Perez</title>
+    <link rel="stylesheet" href="estilos/styles.css" media="all">
+    <link rel="stylesheet" href="estilos/telasmuitopequenas.css" media="screen and (max-width:480px)">
+    <link rel="stylesheet" href="estilos/tablet.css" media="screen and (min-width:768px) and (max-width:991px)">
+    <link rel="stylesheet" href="estilos/desktop.css" media="screen and (min-width:992px) and (max-width:1199px)">
+    <link rel="stylesheet" href="estilos/tv.css" media="screen and (min-width:1200px)">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    
+</head>
+<body>
+  <header class="navbar">
+    <div class="container">
+      <a href="#home">
+        <div class="logo"><h1>Cazelli Perez</h1></div>
+      </a>
+      <button class="menu-toggle" id="menuToggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      
+      <nav class="menu" id="menu">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#areas-atuacao">Áreas de Atuação</a></li>
+          <li style="display: none;"><a href="#escritorio">Escritório</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="blog/blog.html">Blog</a></li>
+         
+        </ul>
+        <button class="close-btn" id="closeMenu">&times;</button>
+      </nav>
+      <a href="https://wa.link/1fmpkl" target="_blank"><button class="btn-whatsapp">Nos contate</button></a>
+    </div>
+  </header>
+  <main>
+
+    <div class="social-buttons">
+      <!-- Instagram Button -->
+      <a href="#" target="_blank" class="social-button instagram-button" style="display: none;" aria-label="Follow us on Instagram">
+          <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram">
+      </a>
+
+      <!-- WhatsApp Button -->
+      <a href="https://wa.link/g5gphd" target="_blank" class="social-button whatsapp-button" aria-label="Contact us on WhatsApp">
+          <img src="https://cdn-icons-png.flaticon.com/512/124/124034.png" alt="WhatsApp">
+      </a>
+  </div>
+
+  <section class="bandeira" id="home">
+   
+    <h1>CAZELLI PEREZ</h1> 
+    <h2>ADVOCACIA</h2>
+</section>
+
+
+    <section class="atuacao">
+     
+        <div class="area-principal">
+          <div class="imagem-destaque">
+            <div class="ft-atuacao"></div>
+          </div> 
+        
+          <div class="txt-atuacao">
+            <h1 class="titulo-direito surge-right">Assessoria Jurídica para Empresas do Varejo</h1>
+            <div class="txt-inventario">
+              
+              <p class=" previa surge-left">
+                O setor varejista, especialmente mercados e supermercados, enfrenta desafios que exigem suporte jurídico especializado para garantir conformidade legal e minimizar riscos. Nossa assessoria abrange as áreas Trabalhista, Consumidor e Cível, proporcionando segurança jurídica para o seu negócio.</p>
+            </div>
+            <ul>
+              <h1 class="surge-right">Direito Trabalhista</h1>
+              <li class="surge-left">Regularização de contratos de trabalho e controle de jornada.</li>
+              <li class="surge-right">Cumprimento de normas de segurança ocupacional.</li>
+              <li class="surge-left">Defesa em reclamações trabalhistas.
+              </li>
+           
+            </ul>
+
+            <ul>
+              <h1 class="surge-left">Direito do Consumidor</h1>
+              <li class="surge-right">Aplicação correta de garantias e políticas de troca.</li>
+              <li class="surge-left">Publicidade e propaganda conforme o CDC.
+              </li>
+              <li>Gestão eficiente de reclamações e ações judiciais.</li>
+            </ul>
+
+            <ul>
+              <h1 class="surge-left">Direito Cível</h1>
+              <li class="surge-right">Elaboração e revisão de contratos comerciais.</li>
+              <li class="surge-left">Assessoria em locação de pontos comerciais.
+              </li>
+              <li class="surge-right">Cobrança e recuperação de crédito.</li>
+            </ul>
+
+            <h1 class="surge-left" style="text-align: left;">Consultoria Especializada</h1>
+            <p class="surge-right">Nosso escritório oferece consultoria preventiva, elaboração de contratos e defesa em processos judiciais. Entre em contato e garanta uma gestão segura para sua empresa do varejo!</p>
+
+            <a href="https://wa.link/g5gphd" target="_blank"><button type="button" class="btn-contato surge-left">Fale com um especialista </button></a>
+
+            
+          </div>
+        </div>
+
+     
+
+      
+
+        <div class="outras-areas" id="areas-atuacao">
+          <h1 class="surge-bottom">ÁREAS DE ATUAÇÃO</h1>
+          <section class="areas-atuacao" >
+            
+            <div class="area-card surge-left" id="area1">
+              <h3>Direito Cível - Contencivo e Preventivo</h3>
+              <p class="mini-resumo">
+                Defesa em ações cíveis contra empresas e assessoria em contratos comerciais e empresariais, buscando soluções eficientes e evitando litígios dispendiosos.
+                </p>
+              <button class="btn-expand" onclick="toggleArea('area1')">Saber Mais</button>
+              <div class="detalhes">
+                <p><ul>
+                  <li>Assessoria jurídica para contratos comerciais e empresariais</li>
+                  <li>Defesa em processos cíveis movidos contra empresas e pessoas físicas</li>
+                  <li>
+                    Cobranças judiciais e extrajudiciais
+                    Ações indenizatórias e responsabilidade civil
+                  </li>
+                </ul></p>
+                <button class="btn-collapse" onclick="toggleArea('area1')">Exibir Menos</button>
+              </div>
+            </div>
+
+
+            <div class="area-card surge-right" id="area2">
+              <h3>Direito do Consumidor - Defesa da empresa</h3>
+              <p class="mini-resumo">
+                Assessoria jurídica para proteger mercados e varejistas contra ações de consumidores, incluindo negociações e defesa em órgãos de proteção ao consumidor como Procon.
+              </p>
+              <button class="btn-expand" onclick="toggleArea('area2')">Saber Mais</button>
+              <div class="detalhes">
+                <p> 
+                  <ul>
+                  <li>Defesa de mercados, supermercados e varejistas em ações de consumidores</li>
+                    <li>Resolução de demandas judiciais e administrativas no Procon</li>
+                    <li>
+                      Assessoria para evitar autuações e penalidades
+                      Implementação de boas práticas para minimizar riscos de litígios
+                    </li>
+                </ul></p>
+                <button class="btn-collapse" onclick="toggleArea('area2')">Exibir Menos</button>
+              </div>
+            </div>
+          
+            <div class="area-card surge-left" id="area3">
+              <h3>Direito de Família - Divórcios e Separações</h3>
+              <p class="mini-resumo"> Orientação jurídica em casos de divórcio, tanto litigioso quanto consensual, incluindo a partilha de bens e acordos sobre guarda e visitas.</p>
+              <button class="btn-expand" onclick="toggleArea('area3')">Saber Mais</button>
+              <div class="detalhes">
+                <p><ul>
+                    <li>Assessoria em divórcios litigiosos e consensuais</li>
+                    <li>Partilha de bens e planejamento patrimonial</li>
+                    <li>Acordos de guarda e regulamentação de visitas</li>
+                </ul>
+                </p>
+                <button class="btn-collapse" onclick="toggleArea('area3')">Exibir Menos</button>
+              </div>
+            </div>
+            
+            <div class="area-card surge-left" id="area5">
+              <h3>Direito de Família - Pensão e Alimentos</h3>
+              <p class="mini-resumo">Assessoria para fixação, revisão e execução de pensão alimentícia, garantindo os direitos de crianças e adolescentes ou em casos de exoneração de alimentos.</p>
+              <button class="btn-expand" onclick="toggleArea('area5')">Saber Mais</button>
+              <div class="detalhes">
+                <p>
+                  <li>Ações de fixação, revisão e execução de pensão alimentícia</li>
+                  <li>Cumprimento de decisões judiciais e medidas para garantir o pagamento</li>
+                  <li>Defesa em ações de exoneração de alimentos</li></p>
+                <button class="btn-collapse" onclick="toggleArea('area5')">Exibir Menos</button>
+              </div>
+            </div>
+
+            <div class="area-card surge-right" id="area4">
+              <h3>Inventários e Sucessões</h3>
+              <p class="mini-resumo"> Abertura e condução de inventários, tanto judiciais quanto extrajudiciais, e planejamento sucessório, visando uma partilha justa e sem conflitos familiares.</p>
+              <button class="btn-expand" onclick="toggleArea('area4')">Saber Mais</button>
+              <div class="detalhes">
+                <p><ul>
+                  <li>Abertura e condução de inventários judiciais e extrajudiciais</li>
+                    <li>Regularização de bens e partilha entre herdeiros</li>
+                    <li>Planejamento sucessório para evitar conflitos familiares</li>
+                </ul></p>
+                <button class="btn-collapse" onclick="toggleArea('area4')">Exibir Menos</button>
+              </div>
+            </div>
+
+
+            <div class="area-card surge-right" id="area6">
+              <h3>Direito Trabalhista - Defesa da empresa (Reclamada)</h3>
+              <p class="mini-resumo">Defesa em processos trabalhistas, focando na redução de passivos e evitando condenações para empresas do setor varejista. Consultoria preventiva para evitar litígios.</p>
+              <button class="btn-expand" onclick="toggleArea('area6')">Saber Mais</button>
+              <div class="detalhes">
+                <p>
+                  <ul>
+                    <li>Defesa em reclamações trabalhistas de ex-funcionários e colaboradores</li>
+                    <li>Assessoria para supermercados, mercados e varejistas na prevenção de passivos trabalhistas</li>
+                    <li>Representação em audiências e negociações trabalhistas</li>
+                    <li>Revisão e adequação de contratos de trabalho conforme a legislação vigente</li>
+                  </ul></p>
+                <button class="btn-collapse" onclick="toggleArea('area6')">Exibir Menos</button>
+              </div>
+            </div>
+          </section>
+
+          <a href="https://wa.link/ytpgms" target="_blank"><button class="btn-chamada surge-bottom">Fale com um especialista →</button></a>
+    </section>
+
+
+
+    <section class="reclamada">
+      <div class="txt-reclamada">
+        <h1 class="surge-left">Protegemos sua empresa contra reclamações trabalhistas</h1>
+        <p class="surge-right">Atuamos na defesa de empresas em processos trabalhistas, reduzindo riscos e protegendo seu negócio de passivos desnecessários. Oferecemos:</p>
+        <ul>
+          <li class="surge-left"> <strong>Defesa em Reclamações Trabalhistas</strong> – Estratégias sólidas para minimizar condenações.</li>
+          <li class="surge-right"><strong>Acompanhamento em Audiências </strong>– Representação especializada para melhor argumentação.</li>
+          <li class="surge-left"> <strong>Negociação e Acordos</strong> – Soluções estratégicas para reduzir custos.</li>
+          <li class="surge-right"> <strong>Consultoria Preventiva</strong> – Evite processos com políticas trabalhistas bem estruturadas.</li>
+        </ul>
+        <p class="surge-left"><strong>Conte com uma equipe experiente para proteger sua empresa!</strong></p>
+        <a href="https://wa.link/1fmpkl" target="_blank"><button class="btn-contato surge-right">Fale Conosco Agora!</button></a>
+      </div>
+    </section>
+   
+
+      <section class="sessao-slider" id="sobre">
+        <h1 class="surge-bottom">Tradição e Excelência em Advocacia Familiar</h1>
+        <p class="surge-bottom">Uma família de advogados comprometida em defender seus direitos com dedicação, ética e experiência. Aqui, cada cliente é tratado com proximidade e confiança.</p>
+        <div class="slider">
+            <div class="card surge-left">
+                <img src="imagens/henrique-cazelli.jpeg" alt="Advogado Henrique Cazelli Perez">
+                <div class="card-content">
+                    <h3>Dr. Henrique Cazelli Perez</h3>
+                    <button onclick="expandCard(this)">Saber mais</button>
+                    <a href="https://wa.link/g5gphd" target="_blank"><button  class="btn-advogado">Contato </button></a>
+                </div>
+                <div class="expanded">
+                   <div class="txt-expanded">
+                     <p><strong>Formação:</strong></p>
+                     <ul>
+                      <li>Especialização em <strong>Direito do Trabalho e Direito Coletivo do Trabalho</strong> – PUC-SP</li>
+                     </ul>
+
+                     <p><strong>Experiência Profissional:</strong></p>
+                     <ul>
+                      <li>Especialista em direito trabalhista consultivo e contencioso</li>
+                      <li>Atuação focada na defesa de empresas do ramo comercial</li>
+                      
+                     </ul>
+
+                     <p><strong>Áreas de atuação:</strong></p>
+                     <ul>
+                      <li><strong>Direito do Trabalho</strong> – Defesa de empresas (reclamada) e atuação em propostas trabalhistas</li>
+                      <li><strong>Direito Coletivo do Trabalho</strong> – Consultoria e estratégias jurídicas para empresas</li>
+                     </ul>
+                    
+                   </div>
+
+                  
+                   
+                   <button onclick="closeCard(this)">Fechar</button>
+                </div>
+            </div>
+           
+            <div class="card surge-bottom">
+              <img src="imagens/marcia-cazelli.jpeg" alt="Advogada Márcia Cazelli Perez">
+              <div class="card-content">
+                  <h3>Dra. Márcia Cazelli Perez</h3>
+                  <button onclick="expandCard(this)">Saber mais</button>
+                  <a href="https://wa.link/1fmpkl" target="_blank"><button  class="btn-advogado">Contato</button></a>
+              </div>
+              <div class="expanded">
+                 <div class="txt-expanded">
+                   <p><strong>Formação:</strong></p>
+                   <ul>
+                    <li>Serviço Social – Faculdade Zona Leste (1978-1980, não concluído)</li>
+                    <li>Direito – Faculdade de Direito Brás Cubas (1981-1984)</li>
+                    <li>Logotipo da inscrição na OAB após a formatura</li>
+                   </ul>
+                   <p><strong>Experiência Profissional:</strong></p>
+                   <ul>
+                    <li>Estagiária em escritório de advocacia durante a faculdade</li>
+                    <li>Fundou seu próprio escritório de advocacia em 1984</li>
+                    <li>Mais de <strong>40 anos de atuação jurídica</strong></li>
+                    <li>Especialista em defesa de empresas do ramo supermercadista</li>
+                   </ul>
+                   <p><strong>Áreas de atuação:</strong></p>
+                   <ul>
+                    <li><strong>Direito Civil</strong> – Especialista em Direito do Consumidor</li>
+                    <li><strong>Direito Trabalhista </strong>– Defesa de empresas, especialmente do setor varejista</li>
+                    <li><strong>Direito de Família</strong> – Separação, Identidades, Itens e Pensão</li>
+                   </ul>
+                   <p>Destaques:</p>
+                   <ul>
+                    <li>Sempre teve como objetivo advogar, nunca prestou concursos</li>
+                    <li>Construiu um legado na advocacia, inspirando marido e filhos a seguirem a mesma profissão</li>
+                    <li>Atua com paixão, ética e respeito pela Justiça, tratando cada causa como se fosse sua própria</li>
+                   </ul>
+                    
+                
+                 </div>
+                 
+                
+                 <button onclick="closeCard(this)">Fechar</button>
+              </div>
+          </div>
+          <div class="card surge-right">
+              <img src="imagens/fernando-cazelli.jpeg" alt="Advogado Fernando Cazelli Perez">
+              <div class="card-content">
+                  <h3>Dra. Fernando Cazelli Perez</h3>
+                  <button onclick="expandCard(this)">Saber mais</button>
+                  <a href="https://wa.link/ytpgms"><button  class="btn-advogado">Contato</button></a>
+              </div>
+              <div class="expanded">
+                <div class="txt-expanded">
+                  <p><strong>Formação:</strong></p>
+                  <ul>
+                   <li>Direito – FMU (2012)</li>
+                  </ul>
+
+                  <p><strong>Experiência Profissional:</strong></p>
+                  <ul>
+                   <li>Mais de <strong>10 anos</strong> de atuação na advocacia cível e de família</li>
+                   <li>Especialista em direito do consumidor, com foco em ações médicas e emergenciais</li>
+                   
+                  </ul>
+
+                  <p><strong>Áreas de atuação:</strong></p>
+                  <ul>
+                   <li><strong>Direito do Consumidor</strong> – Ações médicas e emergenciais</li>
+                   <li><strong>Direito de Família</strong> – Guarda, pensão e revisão de alimentos</li>
+                  </ul>
+                </div>
+                <button onclick="closeCard(this)">Fechar</button>
+                
+                </div>
+              </div>
+          </div>
+        <div class="dots">
+            <span class="dot active" onclick="moveSlider(0)"></span>
+            <span class="dot" onclick="moveSlider(1)"></span>
+            <span class="dot" onclick="moveSlider(2)"></span>
+        </div>
+          </div>
+      </section>
+
+    
+    
+
+
+    <section class="mini-blog">
+      <div class="blog-container">
+        <h1 style="color: white; margin-bottom: 50px;">Conheça Nosso Blog</h1>
+
+        <!-- Contêiner das notícias -->
+        <div class="noticias-container">
+            <div class="noticia-item surge-left">
+                <h2 class="titulo">Fusão Azul e Gol: direitos do consumidor precisam ser considerados na nova empresa, diz Procon</h2>
+                <p class="resumo">O Procon-SP alerta que a possível fusão entre as companhias aéreas Azul e Gol deve priorizar os direitos dos consumidores, garantindo qualidade no atendimento e cumprimento das obrigações contratuais.</p>
+                <p class="data">Data:  Janeiro de 2025</p>
+                <p class="fonte">Fonte: Exame</p>
+                <a href="blog/blog.html" target="_self"><button class="btn">Saber Mais</button></a>
+            </div>
+
+            <div class="noticia-item surge-bottom">
+                <h2 class="titulo">STF decide que não é obrigatória a separação de bens em casamentos de pessoas acima de 70 anos</h2>
+                <p class="resumo">O Supremo Tribunal Federal (STF) determinou que o regime de separação obrigatória de bens para pessoas com mais de 70 anos pode ser alterado por vontade das partes, permitindo a escolha de outro regime matrimonial.</p>
+                <p class="data">Data:  Janeiro de 2025</p>
+                <p class="fonte">Fonte: Direito Real</p>
+                <a href="blog/blog.html" target="_self"><button class="btn">Saber Mais</button></a>
+            </div>
+
+            <div class="noticia-item surge-right">
+                <h2 class="titulo">ANS propõe novas regras para reajuste de planos de saúde e limite para coparticipação</h2>
+                <p class="resumo">A Agência Nacional de Saúde Suplementar (ANS) apresentou propostas para as autoridades regulatórias dos reajustes dos planos de saúde e estabelecimento de limites para a coparticipação dos beneficiários, promovendo maior transparência e equilíbrio no setor.</p>
+                <p class="data">Data: Dezembro de 2024</p>
+                <p class="fonte">Fonte: Folha</p>
+                <a href="blog/blog.html" target="_self"><button class="btn">Saber Mais</button></a>
+            </div>
+        </div>
+    </div>
+    </section>
+
+      
+    
+  </main>
+
+  <footer> 
+    <!--SESSÃO DE INFORMAÇÕES EXTRAS E LINKS DE ACESSO-->
+   <div class="sessao-footer">
+    <div>
+           <div class="info-footer">
+             <div class="logo"><h1 style="color: rgb(255, 101, 45);">Cazelli Perez</h1></div>
+            <p style="margin-top: 10px;"><strong>Endereço:</strong></p>
+            <p>Rua Concheta de Mauro, 245 - Ponte Grande - Guarulhos , SP, 07031-250</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3658.8838899901384!2d-46.550160000000005!3d-23.500691299999993!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5fa1f719028b%3A0xb3873cd3f30360e1!2sR.%20Concheta%20de%20Mauro%2C%20245%20-%20Pte.%20Grande%2C%20Guarulhos%20-%20SP%2C%2007031-250!5e0!3m2!1spt-BR!2sbr!4v1738638743163!5m2!1spt-BR!2sbr" width="250" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+         
+            <p><strong>Contato</strong></p>
+            <p>henrique@cazelliperezadvogados.com</p>
+            <p><a href="https://wa.link/1fmpkl" target="_blank">Márcia: (11) 98123-6869</a></p>
+            <p><a href="https://wa.link/g5gphd"  target="_blank">Henrique: (11) 98208-7276</a></p>
+            <p><a href="https://wa.link/ytpgms" target="_blank">Fernando: (11) 99447-0321</a></p>
+           
+            <div>
+                <a href="https://wa.link/ytpgms" target="_blank"><input type="button" style="background-color: rgb(253, 102, 47); color: white; width: 150px;
+                height: 35px; margin: 20px 0px;" value="Nos contate" class="btn-contato"></a>
+            </div>
+           </div> 
+    </div>
+
+    <div> 
+        <h3>Links Úteis</h3>
+            <ul class="links-uteis">
+                <li><a href="#home" target="_self">Página Inicial</a></li>
+                <li><a href="#areas-atuacao" target="_self">Áreas de Atuação</a></li>
+                <li style="display: none;"><a href="#escritorio" target="_self">Escritório</a></li> 
+                <li><a href="#sobre" target="_self">Sobre</a></li>
+                <li><a href="blog/blog.html" target="_self">Noticias</a></li>
+                <li> <a href="creditos.txt" download="creditos.txt">Baixar Arquivo com Créditos</a></li>
+            </ul>
+    </div> 
+    <div class="contato-form">
+    <h3>Entre em Contato</h3>
+    <form
+       action="https://formsubmit.co/henrique@cazelliperezadvogados.com"
+       method="POST"
+       class="form"
+       >
+       <label for="name">Nome</label>
+       <input type="text" name="name" id="name" required />
+       <label for="email">E-mail</label>
+       <input type="email" name="email" id="email" required />
+       <label for="message">Mensagem</label>
+       <textarea name="message" id="message" required></textarea>
+       <input type="hidden" name="_captcha" value="false" />
+       <input type="hidden" name="_next" value="http://127.0.0.1:5500/agradecimento/agradecimento.html">
+       
+       <button type="submit">Enviar</button>
+       </form>
+           </div>
+           </div>
+
+   </div>
+
+  
+
+   <span class="divisoria"></span>
+    <div style="text-align: center;">
+        &copy; 2025 Cazelli Perez. Todos os direitos reservados. Desenvolvido por <a href="https://wa.link/28ukpj" target="_blank" style="color: rgb(149, 7, 161);">PulseCode</a>.
+    </div>
+</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

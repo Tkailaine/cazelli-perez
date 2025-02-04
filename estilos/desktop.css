@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+.bandeira{
+  background-image: url(../imagens/bandeira.jpg);
+  flex-direction: row;
+}
+
+
+.bandeira h1{
+  font-size: 4em;
+}
+
+.bandeira h2{
+  top: 45%;
+}
+
+
+
+.area-principal{
+
+flex-direction: row;
+
+}
+
+
+
+.ft-atuacao{
+    height: 700px;
+    
+}
+
+
+
+.reclamada{
+  background-image: url(../imagens/bandeira2.jpg);
+}
+
+
+.card img {
+  height: 500px;
+  
+}
+
+
+.footer{
+  height: 300px;
+}
+
+.info-footer p{
+  font-size: 1em;
+}
+
+
+.sessao-footer{
+
+  justify-content: start;
+  flex-direction: row;
+  
+}
+
+.links-uteis > li{
+  font-size: 1.3em;
+  margin: 20px 0px;
+}
+
+.sessao-footer > div{
+margin-top: 25px;
+margin-right: 60px;
+}
+
+.form {
+    
+  width: 300px;
+  font-size: 1.125rem;
+}
+
+.links-uteis > li{
+  font-size: 1.3em;
+  margin: 20px 0px;
+}
+
+.sessao-footer > div{
+margin-top: 25px;
+margin-right: 60px;
+}
+

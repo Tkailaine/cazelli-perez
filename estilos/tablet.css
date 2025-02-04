@@ -1,0 +1,53 @@
+@charset "UTF-8";
+.logo img{
+  width: 160px;
+}
+nav.menu ul {
+  gap: 20px;
+}
+.bandeira{
+  background-image: url(../imagens/bandeira.jpg);
+  flex-direction: row;
+  background-attachment: local;
+ 
+}
+
+.bandeira h1{
+  font-size: 3em;
+}
+
+.bandeira h2{
+  top:43% ;
+}
+
+
+
+.card img {
+  height: 630px;
+  
+}
+
+.slider {
+  justify-content: space-between;
+}
+
+  .links-uteis > li{
+    font-size: 1.2em;
+    margin: 20px 0px;
+  }
+  
+  .form {
+  
+    width: 300px;
+    font-size: 1.125rem;
+    margin-right: 30px;
+  }
+
+  .links-uteis > li{
+    font-size: 1.2em;
+    margin: 20px 0px;
+  }
+
+  .info-footer p{
+    font-size: 1em;
+  }

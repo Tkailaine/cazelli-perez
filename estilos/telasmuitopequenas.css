@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+.logo img{
+    width: 200px;
+}
+
+.bandeira{
+  background-attachment: local;
+  height: 800px;
+}
+
+.bandeira h1{
+  font-size: 1.8em;
+}
+
+.bandeira h2{
+  font-size: 1.2em;
+  top: 39%;
+}
+.btn-contato{
+  font-size: 1em;
+  width: 200px;
+
+}
+
