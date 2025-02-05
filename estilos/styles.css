@@ -67,6 +67,10 @@
     font-family: var(--fonte-destaque);
     
   }
+
+  .logo img{
+    width: 150px;
+  }
   nav.menu .close-btn {
     display: block;
   }
